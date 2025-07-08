@@ -8,6 +8,7 @@ import Testimonial from "@/components/testimonial/Testimonial";
 import Connect from "@/components/connect/Connect";
 import Footer from "@/components/footer/Footer";
 import DesignProcess from "@/components/designProcess/DesignProcess";
+import MyGallery from "@/components/gallery/Gallery";
 
 function Home() {
   return (
@@ -18,7 +19,8 @@ function Home() {
       <Services />
       <Banner />
       <Banner2 />
-      <Testimonial />
+      {/* <Testimonial /> */}
+      <MyGallery />
       <Connect />
       <Footer />
     </div>
