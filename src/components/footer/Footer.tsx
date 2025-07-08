@@ -27,10 +27,10 @@ function Footer() {
                 height={400}
                 className={"size-6"}
               />
-              <p className={"text-2xl font-semibold"}>Interior</p>
+              <p className={"text-2xl font-semibold"}>Estoniagoal</p>
             </div>
-            <p className={""}>Rungkut Medokan Ayu, Surabaya, Indonesia</p>
-            <p>@ 2025, Interior All rights reserved</p>
+            <p className={""}>Gunung anyar jaya III, Surabaya, Indonesia</p>
+            <p>@ 2025, Estoniagoal All rights reserved</p>
           </div>
 
           {/** footer link */}
@@ -79,13 +79,15 @@ function Footer() {
                   <span>
                     <FaPhone />
                   </span>
-                  <Link href={"#"}>+911234567890</Link>
+                  <Link href={"#"}>+6289679938035</Link>
                 </li>
                 <li className={"flex items-center space-x-3"}>
                   <span>
                     <MdEmail />
                   </span>
-                  <Link href={"mailto:contact@tcj.com"}>Email</Link>
+                  <Link href={"mailto:studioestoniagoal@gmail.com"}>
+                    studioestoniagoal@gmail.com
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -94,7 +96,7 @@ function Footer() {
 
         {/** bottom section */}
         <p className={"text-center text-sm font-semibold border-t-2 pt-5 mt-5"}>
-          @ 2025, Interior All rights reserved
+          @ 2025, Estoniagoal All rights reserved
         </p>
       </div>
     </motion.footer>

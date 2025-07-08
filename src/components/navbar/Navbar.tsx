@@ -44,7 +44,7 @@ function Navbar() {
           height={400}
           className={"w-10"}
         />
-        <span className={"text-2xl font-bold"}>Interior</span>
+        <span className={"text-2xl font-bold"}>Estoniagoal</span>
       </div>
 
       {/** link section */}
