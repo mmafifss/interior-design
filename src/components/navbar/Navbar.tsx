@@ -8,7 +8,7 @@ const navLinks = [
   {
     id: 1,
     title: "About",
-    link: "#",
+    link: "/",
   },
   {
     id: 2,
@@ -19,6 +19,11 @@ const navLinks = [
     id: 3,
     title: "Project",
     link: "#",
+  },
+  {
+    id: 4,
+    title: "Blog",
+    link: "/blog",
   },
   {
     id: 4,

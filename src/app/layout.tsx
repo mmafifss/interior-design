@@ -17,6 +17,8 @@ export const metadata: Metadata = {
     "furniture",
     "modern interior",
     "home renovation",
+    "jasa interior",
+    "jasa interior murah",
   ],
   authors: [{ name: "Interior Design Solutions" }],
   creator: "Interior Design Solutions",
@@ -26,7 +28,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://your-domain.com"), // Ganti dengan domain Anda
+  metadataBase: new URL("https://studioestoniagoal.com/"),
   alternates: {
     canonical: "/",
     languages: {
@@ -38,7 +40,7 @@ export const metadata: Metadata = {
     title: "Interior Design Solutions | Premium Home & Office Interiors",
     description:
       "Transform your space with our professional interior design services. We create beautiful, functional homes and offices with modern designs tailored to your lifestyle and budget.",
-    url: "https://your-domain.com", // Ganti dengan domain Anda
+    url: "https://studioestoniagoal.com/",
     siteName: "Interior Design Solutions",
     images: [
       {
@@ -120,8 +122,8 @@ function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
               "@context": "https://schema.org",
               "@type": "Organization",
               name: "Interior Design Solutions",
-              url: "https://your-domain.com",
-              logo: "https://your-domain.com/logo.png",
+              url: "https://studioestoniagoal.com/",
+              logo: "https://studioestoniagoal.com/logo.png",
               description:
                 "Professional interior design services for homes and offices",
               address: {
